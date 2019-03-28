@@ -2,7 +2,7 @@
 The comment codes gutenberg actually wraps blocks with. Here are all the common blocks and some php search and replace code for helping you batch convert html to block style html
 
 #blocks
-
+```
 <!-- wp:paragraph -->
 <p>paragraph text</p>
 <!-- /wp:paragraph -->
@@ -20,7 +20,7 @@ The comment codes gutenberg actually wraps blocks with. Here are all the common 
 
 <!-- wp:image -->
 <figure class="wp-block-image">
-	<img src="https://itre.ncsu.edu/wp-content/uploads/2016/08/image002.png" alt=""/>
+	<img src="https://somedomain.com/some-image-file-1.png" alt=""/>
 </figure>
 <!-- /wp:image -->
 
@@ -116,6 +116,7 @@ The comment codes gutenberg actually wraps blocks with. Here are all the common 
 <!-- wp:video -->
 <figure class="wp-block-video"></figure>
 <!-- /wp:video -->
+```
 
 #conversion code 
 ```
