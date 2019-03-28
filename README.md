@@ -1,6 +1,8 @@
 # Wordpress Gutenberg Block Markup Cheat Sheet
 The comment codes gutenberg actually wraps blocks with. Here are all the common blocks and some php search and replace code for helping you batch convert html to block style html
 
+For the official Gutenberg documentation please visit: https://github.com/WordPress/gutenberg
+
 #blocks
 ```
 <!-- wp:paragraph -->
